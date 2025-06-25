@@ -12,7 +12,7 @@ import random
 from io import StringIO
 
 
-genai.configure(api_key='AIzaSyDgFbt8YURcFF3KFf6DR1PBr6D784YmWMs')
+genai.configure(api_key='Use your Api key')
 model=genai.GenerativeModel(model_name='gemini-1.5-flash')
 
 
