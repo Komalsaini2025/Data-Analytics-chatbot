@@ -13,7 +13,7 @@ import random
 from io import StringIO
 
 
-genai.configure(api_key='AIzaSyCh3M8GBfAmbc3p1ySkAAT7jbI5LrBy8NI')
+genai.configure(api_key='Your API KEY')
 
 # Preferred model (may not be available on all API versions/accounts). If it's
 # not found at runtime, we'll fall back to a broadly supported model.
@@ -321,4 +321,5 @@ if prompt:
             st.session_state.message.append({'role':'assistant','content':"I've generated sample data for you!"})
         
         
+
        
